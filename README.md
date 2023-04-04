@@ -29,7 +29,7 @@ The JavaScript, HTML, and CSS were created by Rush Burriel.
   
 ## Links
   http://127.0.0.1:5501/index.html <br>
-  <br>
+  https://github.com/burrielrush/weather<br>
 
   ## App photo
 <img width="1053" alt="Screenshot 2023-04-03 at 11 26 46 PM" src="https://user-images.githubusercontent.com/123046249/229695350-cf50f89c-d5aa-4e7a-a5b5-aaa54d528d8b.png">
