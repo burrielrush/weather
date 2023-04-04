@@ -4,36 +4,43 @@
 	<title>Weather Dashboard</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Orbitron:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-	<header>
-		<h1>Weather Dashboard</h1>
-		<form>
-			<label for="search-bar">Search for a city:</label>
-			<input type="text" id="search-bar" name="search-bar">
-			<button type="submit">Search</button>
-		</form>
-	</header>
-	<main>
-		<section>
-			<h2>Current Weather</h2>
-			<!-- Add code here to display the current weather for the selected city -->
-		</section>
+    <div class="container">
+        <div class="search-box">
+            <i class="location"></i>
+            <input type="text" placeholder="Location?">
+            <button class="search">Go</button>
+        </div>
 
-		<section>
-			<h2>Saved Cities</h2>
-			<ul>
-				<!-- Add code here to display a list of saved cities -->
-			</ul>
-		</section>
-        <section>
-			<h2>7-Day Forecast</h2>
-			<!-- Add code here to display the 7-day forecast for the selected city -->
-		</section>
-	</main>
-	<footer>
-		<p>Created by [your name]</p>
-	</footer>
+        <div class="weather-box">
+            <p class="temperature"></p>
+            <p class="city-name"></p>
+            <p class="wind"></p>
+            <p class="humidity"></p>
+        </div>
+        <div class="temp">
+            <div class="current-temp">
+                <div class="text"></div>
+                <p></p>
+                <span></span>
+            </div>
+        </div>
+        <div class="wind">
+            <div class="current-wind">
+                <div class="text"></div>
+                <p></p>
+                <span></span>
+            </div>
+        </div>
+        <div class="week"></div>
+        <ul class="search-history"></ul>
+
+</div>
+<script src="assets/script.js"></script>
 </body>
 </html>
