@@ -1,4 +1,4 @@
-# <Weather>
+# Weather dashboard
   
 ## This a weather dashboard that was built from scratch. HTML, CSS, and JavaScript was made to search the current weather of your choice. When city is searched it will display current city temperature, wind, and humidity. Each city searched will be saved. Click on city in saved cities to display.
   
